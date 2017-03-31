@@ -1,0 +1,273 @@
+/**
+ * Yannis Velegrakis css
+ */
+
+/**
+ * Global settings
+ */
+body
+{
+  background: #28231b;
+  /*background: #123;i*/
+  margin:0;
+  padding:20px 10px;
+  text-align:center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #ccc;
+  font-size: 10pt;
+}
+
+#content {
+  width:860px;
+  margin:0 auto;
+  text-align:left;
+  }
+
+a:link
+{
+	color: #005FA9;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #005FA9;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+/**
+ * Header
+ */
+#header {
+  background:#996633 url("images/corners_cap_bot.gif") no-repeat left bottom; /* #357 */
+	/* 5F73A8 */ 
+  margin:0 0 15px;
+  padding:0 0 8px;
+  color: #DDDDDD;
+  min-height: 90px;
+  }
+
+#header div {
+  background:url("images/corners_cap_top.gif") no-repeat left top;
+  padding:8px 0 0;
+  }
+
+h1
+{
+  margin:0;
+  padding:5px 20px 5px;
+  font-size:200%;
+  line-height:1.2em;
+  color:#DDDDDD;
+  border: none;
+}
+
+
+h4
+{
+  font-style: italic;
+  font-weight: normal;
+  margin:0;
+  padding:5px 20px 5px;
+  font-size:120%;
+  line-height:1.0em;
+  color:#DDDDDD;
+}
+
+/**
+ * Footer
+ */
+#footer {
+  clear:both;
+  background:#996633 url("images/corners_cap_top.gif") no-repeat left top;
+  margin:0 0 0;
+  padding:8px 0 0;
+  color:#DDDDDD;
+  text-align:center;
+  }
+#footer div {
+  background:url("images/corners_cap_bot.gif") no-repeat left bottom;
+  padding:0 15px 8px;
+  }
+
+/**
+ * Main Text
+ */
+#main {
+  width:680px;
+  float:left;
+  background:white url("images/corners_main_bot.gif") no-repeat left bottom;
+  margin:0px 0 15px;
+  padding:0 0 0px;
+  color:black;
+  font-size:97%;
+  line-height:1.5em;
+  }
+
+#main2 {
+  float:left;
+  width:100%;
+  background:url("images/corners_main_top.gif") no-repeat left top;
+  padding:0px 0 0;
+  }
+
+h2
+{
+  margin:10px 28px 0 23px;
+  font-size:155%;
+  line-height:2em;
+  color:#5F73A8;
+  border-bottom:1px dotted #bb9;
+} 
+ 
+.topic-text {
+  margin:.3em 14px 10px;
+  padding:10px 10px 1px 10px;
+  text-align:justify;
+  }
+
+ 
+/**
+ * For the side bar
+ */
+#sidebar {
+  width:165px;
+  background: #DDDDDD url("images/corners_side_top.gif") no-repeat left top;
+  float:right;
+  margin:0 0 15px;
+  font-size:97%;
+  line-height:1.5em;
+  color:#000000;
+  padding:10px 0 0;
+  }
+
+#sidebar2 {
+  width:165px;
+  background:url("images/corners_side_bot.gif") no-repeat left bottom;
+  padding:0 10px 15px;
+  }
+  
+#sidebar a:link {
+  font-size:90%;
+  }
+#sidebar a:visited {
+  font-size:90%;
+  }
+#sidebar a:hover {
+  font-size:90%;
+  }
+
+#sidebar2 ul {
+  margin:.5em 0 1.25em;
+  padding:0 0px;
+  list-style:none;
+  }
+
+#sidebar ul li {
+  background:url("images/icon_arrow_sm2.gif") no-repeat 2px .25em;
+  margin:0;
+  padding:0 0 3px 16px;
+  margin-bottom:3px;
+  /* border-bottom:1px dotted #345; */
+  line-height:1.4em;
+  color: black;
+  }
+
+#sidebar h2
+{
+  margin:0 25px 0 0;
+  font-size:130%;
+  line-height:1.5em;
+  color:#5F73A8;
+  border-bottom:1px dotted #456;
+  padding:0 0 .2em;
+} 
+ 
+#sidebar td 
+{
+  padding:0 0 3px 0;
+  font-size:70%;
+  color: black;
+}
+
+
+/**
+ * The publications
+ */
+
+.pubTitle
+{
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pubAuthors
+{
+    color: green;
+    font-weight: normal;
+}
+
+.pubInfo
+{
+    color: black;
+    font-weight: normal;
+}
+
+#publication ul {
+  margin:.5em 0 1.25em;
+  padding:0 0px;
+  list-style:none;
+  }
+
+#publication ul li 
+{
+  background:url("images/icon_arrow_sm2.gif") no-repeat 2px .25em;
+  margin:0;
+  padding:0 0 0px 16px;
+  margin-bottom: 2px;
+}
+
+#publication ul li .pubTitle a:link
+{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#publication ul li .pubTitle a:visited
+{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#publication ul li .pubTitle a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+/**
+ * Banners
+ */
+.bannerImg {
+  margin:0 0 0 0;
+  padding:0px;
+  border:0px solid #586;
+  }
+
+.bannerImgFirst {
+  margin:0 0 0 0;
+  padding:0px;
+  border:0px solid #586;
+  }
+
+td 
+  {
+	  text-align: center;
+  }
