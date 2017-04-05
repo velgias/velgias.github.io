@@ -3,7 +3,8 @@
  */
 
 /**
- * Global settings
+ * Global settings 
+ * color: #005FA9;
  */
 body
 {
@@ -25,13 +26,13 @@ body
 
 a:link
 {
-	color: #005FA9;
+	color: blue;
 	text-decoration: none;
 }
 
 a:visited
 {
-	color: #005FA9;
+	color: blue;
 	text-decoration: none;
 }
 
@@ -190,12 +191,6 @@ h2
  * The publications
  */
 
-.pubTitle
-{
-    color: black;
-    font-weight: bold;    
-}
-
 .pubAuthors
 {
     color: green;
@@ -220,13 +215,6 @@ h2
   margin:0;
   padding:0 0 0px 16px;
   margin-bottom: 2px;
-}
-
-.pubTitle a:link
-{
-		color: blue;
-	text-decoration: none;
-	    font-weight: normal;
 }
 
 .pubTitle a:visited
