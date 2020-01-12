@@ -114,6 +114,17 @@ h4
 /**
  * Main Text
  */
+#mainFull {
+  width:860px;
+  float:left;
+  background:white url("images/corners_cap_bot.gif") no-repeat left bottom;
+  margin:0px 0 15px;
+  padding:0 0 0px;
+  color:black;
+  font-size:97%;
+  line-height:1.5em;
+  }
+
 #main {
   width:680px;
   float:left;
@@ -129,6 +140,13 @@ h4
   float:left;
   width:100%;
   background:url("images/corners_main_top.gif") no-repeat left top;
+  padding:0px 0 0;
+  }
+
+#main2Full {
+  float:left;
+  width:100%;
+  background:url("images/corners_cap_top.gif") no-repeat left top;
   padding:0px 0 0;
   }
 
