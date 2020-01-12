@@ -125,6 +125,17 @@ h4
   line-height:1.5em;
   }
 
+#mainWide {
+  width:860px;
+  float:left;
+  background:white url("images/corners_main_bot.gif") no-repeat left bottom;
+  margin:0px 0 15px;
+  padding:0 0 0px;
+  color:black;
+  font-size:97%;
+  line-height:1.5em;
+  }
+
 #main2 {
   float:left;
   width:100%;
